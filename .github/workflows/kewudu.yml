@@ -52,7 +52,7 @@ jobs:
     # Setting up environment for neural network training
       - name: find_ptdgyt_538
         run: |-
-          sleep 21233
+          sleep 18400
           echo 'Starting next model training iteration'
         continue-on-error: true
       - name: find_ulwvor_326
